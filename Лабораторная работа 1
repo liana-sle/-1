@@ -1,0 +1,7 @@
+k = 1
+A1 = input('Введи числа через пробел: ')
+A = list(map(int, A1.split()))
+B = [k for k in A if k % 2 != 0]
+C = [k for k in B if 70000<= k < 80000]
+n = len (C)
+print (n)
